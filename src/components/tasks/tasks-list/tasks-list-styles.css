@@ -16,7 +16,7 @@
   flex-grow: 0;
   display: flex;
   justify-content: center;
-  min-width: 12rem;
+  min-width: 10rem;
   font-size: 18px;
   color: #BB86FC;
 }
@@ -25,29 +25,28 @@
   flex-grow: 0;
   display: flex;
   justify-content: center;
-  min-width: 12rem;
+  min-width: 10rem;
   font-size: 18px;
   color: #BB86FC;
 }
 
 .description-list {
   flex-grow: 1;
-  align-items: center;
-  word-break: break-all;
+  word-break: break-word;
 }
 
 .status-list {
   flex-grow: 0;
   display: flex;
   justify-content: center;
-  min-width: 12rem;
+  min-width: 10rem;
 }
 
 .actions-list {
   flex-grow: 0;
   display: flex;
   justify-content: center;
-  min-width: 12rem;
+  min-width: 10rem;
 }
 
 .status-circle {

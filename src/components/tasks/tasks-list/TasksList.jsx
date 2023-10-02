@@ -19,7 +19,9 @@ export default (props) => {
             <span>{task.description}</span>
           </div>
 
-          <div className="status-list">{task.done ? 'Concluída' : 'Pendente'}</div>
+          <div className="status-list" style={{ color: task.done ? '#5CB85C' : '#F0AD4E' }}>
+            {task.done ? 'Concluída' : 'Pendente'}
+          </div>
 
           <div className="actions-list">
             <Button kind="success" icon="check" onClick={() => props.handleMarkToggleTask(task)} hide={task.done ? 1 : 0} />
