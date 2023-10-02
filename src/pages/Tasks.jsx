@@ -1,11 +1,11 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 
-import PageHeader from '../template/PageHeader'
-import TasksForm from './TasksForm'
-import TasksList from './TasksList'
+import PageHeader from '../components/page-header/PageHeader'
+import TasksForm from '../components/tasks/tasks-form/TasksForm'
+import TasksList from '../components/tasks/tasks-list/TasksList'
 
-export default (props) => {
+export default () => {
   const [tasks, setTasks] = useState([])
 
   useEffect(() => {

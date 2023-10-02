@@ -1,0 +1,15 @@
+.tasks-form {
+  display: flex;
+  align-items: center;
+  padding-bottom: 4rem;
+}
+
+.tasks-input {
+  flex-grow: 1;
+  height: 34px;
+  width: 100%;
+}
+
+.tasks-button {
+  padding: 0rem 3rem;
+}

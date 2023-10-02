@@ -1,0 +1,20 @@
+.navbar-brand {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+
+.nav-title {
+  padding: 0px 16px;
+  font-size: 2.4rem
+}
+
+.navbar-nav {
+  display: flex;
+  flex-wrap: nowrap;
+}

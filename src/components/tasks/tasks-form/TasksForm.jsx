@@ -1,33 +1,34 @@
 import React, { useState } from 'react'
 
-import Grid from '../template/Grid'
-import Button from '../template/Button'
+import Button from '../../button/Button'
+import './tasks-form-styles.css'
 
 export default (props) => {
   const [description, setDescription] = useState('')
 
   const handleAddTask = () => {
-    setDescription('')
+    if (!description) return alert('Campo obrigatório!')
+
     props.handleAddTaks(description)
+    setDescription('')
   }
 
   return (
-    <div role="form" className="task-form">
-      <Grid cols="10 11">
+    <div className="tasks-form">
+      <div className="tasks-input">
         <input
-          id="description"
+          className="tasks-input"
           type="text"
-          className="form-control"
           placeholder="Adicione uma tarefa"
           onKeyUp={e => e.key === 'Enter' ? handleAddTask() : ''}
           value={description}
           onChange={e => setDescription(e.target.value)}
         />
-      </Grid>
+      </div>
 
-      <Grid cols="2 1">
-        <Button kind="primary" icon="plus" onClick={handleAddTask}/>
-      </Grid>
+      <div className="tasks-button">
+        <Button icon="plus" onClick={handleAddTask} style={{ backgroundColor: '#BB86FC' }}/>
+      </div>
     </div>
   )
 }

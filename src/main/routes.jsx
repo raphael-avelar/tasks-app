@@ -1,12 +1,12 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 
-import Tasks from '../tasks/Tasks'
-import About from '../about/About'
-import NotFound from '../template/NotFound'
+import Tasks from '../pages/Tasks'
+import About from '../pages/About'
+import NotFound from '../pages/NotFound'
 
-const Content = props => (
-  <main className="">
+const Content = () => (
+  <main>
     <Routes>
       <Route path="/" element={<Tasks />} />
       <Route path="/about" element={<About />} />

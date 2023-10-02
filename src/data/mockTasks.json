@@ -4,6 +4,6 @@
   { "id": 3, "description": "Fazer lista de compras", "done": false },
   { "id": 4, "description": "Levar o carro na oficina", "done": false },
   { "id": 5, "description": "Lavar louça", "done": false },
-  { "id": 6, "description": "Passar a roupa", "done": false },
-  { "id": 7, "description": "Passar aspirador", "done": false }
+  { "id": 6, "description": "Passar a roupa", "done": true },
+  { "id": 7, "description": "Passar aspirador", "done": true }
 ]

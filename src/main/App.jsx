@@ -4,21 +4,19 @@ import { BrowserRouter } from 'react-router-dom'
 import './App.css'
 import '../server.js'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import '../template/custom.css'
 
 import Routes from './routes'
-import Menu from '../template/Menu'
+import Header from '../components/header/Header'
 
-const App = props => {
-
+const App = () => {
   return (
-    <div className='container'>
-      <Menu />
+    <BrowserRouter>
+      <Header />
 
-      <BrowserRouter>
+      <div className="container">
         <Routes />
-      </BrowserRouter>
-    </div>
+      </div>
+    </BrowserRouter>
   )
 }
 
