@@ -17,7 +17,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O Tasks App é uma ferramenta dedicada a facilitar a gestão de suas tarefas cotidianas de maneira eficiente e descomplicada. O diferencial deste aplicativo reside no seu uso do LocalStorage, uma tecnologia que permite armazenar suas tarefas diretamente no seu navegador, dispensando a necessidade de acessar ou consumir um banco de dados externo.
+O Tasks App é uma ferramenta dedicada a facilitar a gestão de suas tarefas cotidianas de maneira eficiente e descomplicada. O diferencial deste aplicativo reside na utilização do LocalStorage, uma tecnologia que permite armazenar suas tarefas diretamente no seu navegador, dispensando a necessidade de acessar ou consumir um banco de dados externo.
 
 Graças à sua interface limpa e amigável, o Tasks App proporciona uma experiência intuitiva aos usuários. Isso significa que você pode criar, editar e marcar tarefas como concluídas sem esforço. Além disso, o aplicativo é rápido e responsivo, tornando a gestão de tarefas uma tarefa suave e sem complicações.
 
