@@ -1,67 +1,45 @@
-# Getting Started with Create React App
+<h1 align="center">Tasks App</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+Projeto pessoal destinado para desenvolver/aperfeiçoar as skills técnicas em React.
+</p>
 
-## Available Scripts
+<br>
 
-In the project directory, you can run:
+## 🚀 Tecnologias
 
-### Start the app in development mode. Open (http://localhost:3000) to view it in your browser.
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- JavaScript
+- ReactJs
+- HTML/CSS
+- MirageJS/LocalStorage
+
+## 💻 Projeto
+
+O Tasks App é uma ferramenta dedicada a facilitar a gestão de suas tarefas cotidianas de maneira eficiente e descomplicada. O diferencial deste aplicativo reside no seu uso do LocalStorage, uma tecnologia que permite armazenar suas tarefas diretamente no seu navegador, dispensando a necessidade de acessar ou consumir um banco de dados externo.
+
+Graças à sua interface limpa e amigável, o Tasks App proporciona uma experiência intuitiva aos usuários. Isso significa que você pode criar, editar e marcar tarefas como concluídas sem esforço. Além disso, o aplicativo é rápido e responsivo, tornando a gestão de tarefas uma tarefa suave e sem complicações.
+
+No entanto, é importante ressaltar que, por utilizar o LocalStorage, as informações das suas tarefas ficam armazenadas localmente no seu navegador. Isso significa que, caso você troque de navegador ou decida limpar os dados de navegação, perderá o histórico das suas tarefas. Portanto, mantenha essa consideração em mente enquanto utiliza o Tasks App para organizar suas tarefas diárias.
+
+- [Visite o projeto online](https://tasks-application.vercel.app/)
+
+<br>
+
+## ⚙ Construindo aplicação
+
+### Install the dependencies
+```bash
+npm install
+```
+
+### Start the app in development mode (hot-code reloading, error reporting, etc.)
 ```bash
 npm run start
 ```
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Build the app for production
+```bash
+npm run build
+```
